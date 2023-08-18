@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7ef374bd-7675-46b5-8fe6-2fe5394c8cf4" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="05Unstructuredgrid" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package/Main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="77" column="36" selection-start-line="77" selection-start-column="36" selection-end-line="77" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package/mesh/FractureProcessing/calc_intersections_segm_parallel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+              <folding>
+                <element signature="e#0#60#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package/model/ModelFracture.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="60" selection-start-column="60" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package/mesh/FractureProcessing/mesh_raw_fractures.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1020">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package/mesh/FractureProcessing/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package/DFNGenerator/Main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>print</find>
+      <find>dist_factor</find>
+      <find>IField</find>
+      <find>yygen</find>
+      <find>maxNumIter</find>
+      <find>proximity_threshold</find>
+      <find>numIter</find>
+      <find>bounding_box_overlap</find>
+      <find>existing_frac</find>
+      <find>calc_intersections_before</find>
+      <find>collisionCounter</find>
+      <find>posNegGenerator</find>
+      <find>rotate</find>
+      <find>gif</find>
+      <find>lengthX</find>
+      <find>num_report_steps</find>
+      <find>merge_threshold</find>
+      <find>angle_tol_small_intersect</find>
+      <find>apertures_raw</find>
+      <find>mesh_clean</find>
+      <find>angle_tol_straighten</find>
+      <find>straighten_after_cln</find>
+      <find>calc_intersections_after</find>
+      <find>num_partition_x</find>
+      <find>partition_fractures_in_segms</find>
+      <find>matrix_perm</find>
+      <find>correct_aperture</find>
+      <find>small_angle_iter</find>
+      <find>char_len_mult</find>
+      <find>main_algo_iters</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/package/visualizationVTK.py" />
+        <option value="$PROJECT_DIR$/package/mesh/3DMesh.py" />
+        <option value="$PROJECT_DIR$/package/mesh/Mesh.py" />
+        <option value="$PROJECT_DIR$/package/mesh/EmptyMesh/create_geo_file.py" />
+        <option value="$PROJECT_DIR$/package/model/reservoir.py" />
+        <option value="$PROJECT_DIR$/package/ReadMesh.py" />
+        <option value="C:/meshes/Fracs/Mesh01_raw_lc_30.geo" />
+        <option value="$PROJECT_DIR$/package/model/ConstantMuPropertyContainer.py" />
+        <option value="$PROJECT_DIR$/package/mesh/FractureProcessing/preprocessing_code.py" />
+        <option value="$PROJECT_DIR$/package/mesh/FractureProcessing/withoutProcessing.py" />
+        <option value="$PROJECT_DIR$/DFNs/Datasets/WhitbyAdaptive8/Datasets_raw_lc_32.geo" />
+        <option value="$PROJECT_DIR$/package/mesh/FractureProcessing/graph_code.py" />
+        <option value="$PROJECT_DIR$/package/DFNGenerator/Conjugate.py" />
+        <option value="$PROJECT_DIR$/package/DFNGenerator/Orthogonal.py" />
+        <option value="$PROJECT_DIR$/package/DFNGenerator/OrthogonalSpace.py" />
+        <option value="$PROJECT_DIR$/package/model/Model.py" />
+        <option value="$PROJECT_DIR$/package/visualization/Visualize.py" />
+        <option value="$PROJECT_DIR$/package/DFNGenerator/ConjugateSpace.py" />
+        <option value="$PROJECT_DIR$/package/mesh/FractureProcessing/preprocessing_raw.py" />
+        <option value="$USER_HOME$/Anaconda3/envs/02DARTS_Dev/Lib/site-packages/darts/mesh/unstruct_discretizer.py" />
+        <option value="$PROJECT_DIR$/package/model/ModelLineSource.py" />
+        <option value="$PROJECT_DIR$/package/mesh/FractureProcessing/mesh_raw_fractures.py" />
+        <option value="$PROJECT_DIR$/package/mesh/FractureProcessing/main.py" />
+        <option value="$PROJECT_DIR$/package/model/ModelFracture.py" />
+        <option value="$PROJECT_DIR$/package/DFNGenerator/Main.py" />
+        <option value="$PROJECT_DIR$/package/Main.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1943" />
+    <option name="height" value="1043" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="07Unstructuredgrid_onlyInputGeometry" type="b2602c69:ProjectViewProjectNode" />
+              <item name="07Unstructuredgrid_onlyInputGeometry" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="07Unstructuredgrid_onlyInputGeometry" type="b2602c69:ProjectViewProjectNode" />
+              <item name="07Unstructuredgrid_onlyInputGeometry" type="462c0819:PsiDirectoryNode" />
+              <item name="package" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="07Unstructuredgrid_onlyInputGeometry" type="b2602c69:ProjectViewProjectNode" />
+              <item name="07Unstructuredgrid_onlyInputGeometry" type="462c0819:PsiDirectoryNode" />
+              <item name="package" type="462c0819:PsiDirectoryNode" />
+              <item name="DFNGenerator" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../06Unstructuredgrid" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ef374bd-7675-46b5-8fe6-2fe5394c8cf4" name="Default Changelist" comment="" />
+      <created>1690379052506</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690379052506</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30420968" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Favorites" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Structure" order="7" weight="0.24918744" />
+      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.9007149" visible="true" weight="0.66312057" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.09928515" side_tool="true" weight="0.16489361" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20179136" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Favorites" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Structure" order="7" weight="0.24918744" />
+      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.9007149" visible="true" weight="0.3206934" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.09928515" side_tool="true" weight="0.16489361" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Anaconda3/envs/02DARTS_Dev/Lib/site-packages/darts/physics/geothermal/physics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="169" column="67" selection-start-line="169" selection-start-column="67" selection-end-line="169" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/meshes/Fracs/Mesh01_raw_lc_30.geo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="76" column="7" selection-start-line="76" selection-start-column="7" selection-end-line="76" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/Mesh13/Mesh/Mesh01_raw_lc_30.geo" />
+    <entry file="file://$PROJECT_DIR$/../../../../Fracture-Preprocessing-Code-main/output_Whitby/Whitby_raw_lc_16.geo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="12631" column="45" lean-forward="true" selection-start-line="12631" selection-start-column="45" selection-end-line="12631" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/equations/DimensionLess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/equations/LineSourceEq.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="41" column="39" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/ReadMesh.py" />
+    <entry file="file://$PROJECT_DIR$/package/mesh/EmptyMesh/create_geo_file.py" />
+    <entry file="file://$PROJECT_DIR$/DFN08.txt" />
+    <entry file="file://$USER_HOME$/Anaconda3/envs/02DARTS_Dev/Lib/site-packages/PIL/Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="3217" selection-start-line="3217" selection-end-line="3217" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DFN01.txt" />
+    <entry file="file://$PROJECT_DIR$/DFN02.txt" />
+    <entry file="file://$PROJECT_DIR$/DFN03.txt" />
+    <entry file="file://$PROJECT_DIR$/DFN04.txt" />
+    <entry file="file://$PROJECT_DIR$/DFN05.txt" />
+    <entry file="file://$PROJECT_DIR$/package/model/ConstantMuPropertyContainer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DFNs/03Orthogonal/DFN002.png" />
+    <entry file="file://$USER_HOME$/Anaconda3/envs/02DARTS_Dev/Lib/runpy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/02DARTS_Dev/Lib/subprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8772">
+          <caret line="527" selection-start-line="527" selection-end-line="527" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DFNs/01Orthogonal/DFN002.txt" />
+    <entry file="file://$PROJECT_DIR$/DFN09.txt" />
+    <entry file="file://$PROJECT_DIR$/package/mesh/FractureProcessing/calc_intersections_segm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1122" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/mesh/FractureProcessing/withoutProcessing.py" />
+    <entry file="file://$PROJECT_DIR$/package/mesh/FractureProcessing/find_parametric_intersect.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/ProgramData/PyCharmCE/system/python_stubs/-610713579/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15317">
+          <caret line="901" column="6" selection-start-line="901" selection-start-column="6" selection-end-line="901" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/02DARTS_Dev/Scripts/gmsh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#23#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/02DARTS_Dev/Lib/site-packages/gmsh.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-74">
+          <caret line="288" column="20" selection-start-line="288" selection-start-column="20" selection-end-line="288" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/mesh/FractureProcessing/graph_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="1269" column="45" selection-start-line="1269" selection-start-column="45" selection-end-line="1269" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/DFNGenerator/Visualize.py" />
+    <entry file="file://$PROJECT_DIR$/package/DFNGenerator/Orthogonal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="250" selection-start-line="250" selection-end-line="250" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DFNs/Datasets/WhitbyAdaptive8/Datasets_raw_lc_32.geo" />
+    <entry file="file://$PROJECT_DIR$/package/model/Model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-520">
+          <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#1868#3407#0" />
+            <element signature="e#3464#3563#0" />
+            <element signature="e#3598#7027#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/DFNGenerator/Conjugate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="119" selection-start-line="119" selection-end-line="122" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/model/reservoir.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="117" column="43" selection-start-line="117" selection-start-column="30" selection-end-line="117" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#88#0" expanded="true" />
+            <element signature="e#488#1111#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/visualizationVTK.py" />
+    <entry file="file://$PROJECT_DIR$/package/mesh/FractureProcessing/preprocessing_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/mesh/FractureProcessing/preprocessing_raw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="64" selection-end-line="263" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/visualization/Visualize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4590">
+          <caret line="277" selection-start-line="277" selection-end-line="277" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/DFNGenerator/ConjugateSpace.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2584">
+          <caret line="158" column="43" selection-start-line="158" selection-start-column="43" selection-end-line="158" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/02DARTS_Dev/Lib/site-packages/pyvista/plotting/plotter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82059">
+          <caret line="4904" column="7" selection-start-line="4904" selection-start-column="7" selection-end-line="4904" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/02DARTS_Dev/Lib/site-packages/darts/mesh/unstruct_discretizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="980" column="30" selection-start-line="980" selection-start-column="30" selection-end-line="980" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/DFNGenerator/OrthogonalSpace.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="124" selection-start-line="124" selection-end-line="214" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/model/ModelLineSource.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="1" column="75" selection-start-line="1" selection-start-column="75" selection-end-line="1" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/02DARTS_Dev/Lib/multiprocessing/popen_spawn_win32.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/02DARTS_Dev/Lib/multiprocessing/process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1955">
+          <caret line="120" selection-start-line="120" selection-end-line="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/model/ModelFracture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="60" selection-start-column="60" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/mesh/FractureProcessing/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/mesh/FractureProcessing/mesh_raw_fractures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="77" column="36" selection-start-line="77" selection-start-column="36" selection-end-line="77" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/mesh/FractureProcessing/calc_intersections_segm_parallel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="e#0#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/DFNGenerator/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

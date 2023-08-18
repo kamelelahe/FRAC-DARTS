@@ -190,6 +190,7 @@ class UnstructReservoir:
 
         # Convert dynamic list to numpy array:
         left_boundary_points = np.array(list(compress(range(len(index)), index)))
+        print('left_boundary_points',left_boundary_points)
 
         # Second boundary (same as above):
         index = []
@@ -218,6 +219,8 @@ class UnstructReservoir:
         left_boundary_cells = {}  # Dictionary with matrix cells on the left boundary
         for geometry in self.unstr_discr.geometries_in_mesh_file:
             if geometry in self.unstr_discr.available_matrix_geometries:
+                print('geometry', geometry)
+
                 # Matrix geometry found, check if any matrix control volume has exactly 4 nodes which intersect with
                 # the left_boundary_points list:
                 for ith_cell, ith_row in enumerate(
