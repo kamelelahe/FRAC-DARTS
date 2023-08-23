@@ -2,6 +2,7 @@ from .ConstantMuPropertyContainer import MyPropertyContainer
 from .reservoir import UnstructReservoir
 from darts.physics.geothermal.physics import  Geothermal
 from darts.models.darts_model import DartsModel
+from darts.physics.geothermal.property_container import PropertyContainer
 
 class FractureModel(DartsModel):
 
@@ -50,6 +51,7 @@ class FractureModel(DartsModel):
 
 
         self.property_container= MyPropertyContainer(inputs=inputs)
+        #self.property_container= PropertyContainer()
         # create pre-defined physics for geothermal
         self.cell_property = ['pressure', 'enthalpy']
         self.physics = Geothermal(self.timer, property_container=self.property_container,

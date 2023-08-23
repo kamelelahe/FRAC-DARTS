@@ -1,0 +1,5 @@
+Ix=0.125
+Iy= 0.125
+minLengthX 6.0
+minLengthY 12.0
+Realizarion 0

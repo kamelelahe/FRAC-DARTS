@@ -28,8 +28,9 @@ class Visualize:
         for (color, (keys, df)) in zip(self.colors, self.results.items()):
             # Plot data
             label = ', '.join(f'{label}: {value}' for label, value in zip(self.labels, keys))
-            ax.plot(df['time'][3:], df['PRD : BHP (bar)'][3:], marker='o', markersize=2, linestyle='-', label=label,
-                    color=color)
+            if 'time' in df.columns:
+                ax.plot(df['time'][3:], df['PRD : BHP (bar)'][3:], marker='o', markersize=2, linestyle='-', label=label,
+                        color=color)
 
         if plotAnalytical:
             for (color, (key, value)) in zip(self.colorsAnalytical, p_analytical.items()):
@@ -60,8 +61,9 @@ class Visualize:
         for (color, (keys, df)) in zip(self.colors, self.results.items()):
             # Plot data
             label = ', '.join(f'{label}: {value}' for label, value in zip(self.labels, keys))
-            ax.plot(df['time'][3:], df['PRD : BHP (bar)'][3:], marker='o', markersize=2, linestyle='-', label=label,
-                    color=color)
+            if 'time' in df.columns:
+                ax.plot(df['time'][3:], df['PRD : BHP (bar)'][3:], marker='o', markersize=2, linestyle='-', label=label,
+                        color=color)
 
         if plotAnalytical:
             for (color, (key, value)) in zip(self.colorsAnalytical, p_analytical.items()):
@@ -109,13 +111,14 @@ class Visualize:
                 Ct_index = self.labels.index('Ct')
                 self.inputs['Ct'] = keys[Ct_index]
 
-            tD_simulation = DimensionlessTime(self.inputs, df['time'][3:])
-            pD_simulation = DimensionlessPressure(self.inputs, df['PRD : BHP (bar)'][3:])
-            # Create a label from the keys
-            print("self.labels:", self.labels)
-            print("keys:", keys)
-            label = ', '.join(f'{label}: {value}' for label, value in zip(self.labels, keys))
-            ax.plot(tD_simulation, pD_simulation, marker='o', markersize=2, linestyle='-', label=label, color=color)
+            if  'time' in df.columns:
+                tD_simulation = DimensionlessTime(self.inputs, df['time'][3:])
+                pD_simulation = DimensionlessPressure(self.inputs, df['PRD : BHP (bar)'][3:])
+                # Create a label from the keys
+                print("self.labels:", self.labels)
+                print("keys:", keys)
+                label = ', '.join(f'{label}: {value}' for label, value in zip(self.labels, keys))
+                ax.plot(tD_simulation, pD_simulation, marker='o', markersize=2, linestyle='-', label=label, color=color)
 
         if plotAnalytical:
             for (color, key) in zip(self.colorsAnalytical, pD_analytical.keys()):
@@ -160,11 +163,12 @@ class Visualize:
             if 'Ct' in self.labels:
                 Ct_index = self.labels.index('Ct')
                 self.inputs['Ct'] = keys[Ct_index]
-            tD_simulation = DimensionlessTime(self.inputs, df['time'][3:])
-            pD_simulation = DimensionlessPressure(self.inputs, df['PRD : BHP (bar)'][3:])
-            # Create a label from the keys
-            label = ', '.join(f'{label}: {value}' for label, value in zip(self.labels, keys))
-            ax.plot(tD_simulation, pD_simulation, marker='o', markersize=2, linestyle='-', label=label, color=color)
+            if 'time' in df.columns:
+                tD_simulation = DimensionlessTime(self.inputs, df['time'][3:])
+                pD_simulation = DimensionlessPressure(self.inputs, df['PRD : BHP (bar)'][3:])
+                # Create a label from the keys
+                label = ', '.join(f'{label}: {value}' for label, value in zip(self.labels, keys))
+                ax.plot(tD_simulation, pD_simulation, marker='o', markersize=2, linestyle='-', label=label, color=color)
 
         if plotAnalytical:
             for (color, key) in zip(self.colorsAnalytical, pD_analytical.keys()):

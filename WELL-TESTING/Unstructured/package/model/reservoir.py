@@ -267,18 +267,50 @@ class UnstructReservoir:
         self.wells.append(well)
         return 0
 
-    def add_perforation(self, well, res_block, well_index):
+    def add_perforation(self, well, res_block, well_index=-1, well_indexD=-1, well_radius=0.1524, skin=0.,
+                        multi_segment=True, verbose=False):
         """
         Class method which ads perforation to each (existing!) well
+
         :param well: data object which contains data of the particular well
         :param res_block: reservoir block in which the well has a perforation
         :param well_index: well index (productivity index)
         :return:
         """
-        well_block = 0
-        well.perforations = well.perforations = well.perforations + [(well_block, res_block, well_index, 0.0)]
-        return 0
 
+        # calculate well index and get local index of reservoir block
+        wi, wid = self.unstr_discr.calc_equivalent_well_index(res_block, well_radius=well_radius, skin=skin)
+
+        if well_index == -1:
+            well_index = wi
+
+        if well_indexD == -1:
+            well_indexD = wid
+
+        # set well segment index (well block) equal to index of perforation layer
+        if multi_segment:
+            well_block = len(well.perforations)
+        else:
+            well_block = 0
+
+        well.perforations = well.perforations + [(well_block, res_block, well_index, well_indexD)]
+
+        if verbose:
+            print('Added perforation for well %s to block %d with WI=%f' % (well.name, res_block, well_index))
+
+        return 0
+    """def add_perforation(self, well, res_block, well_index):
+        
+        Class method which ads perforation to each (existing!) well
+        :param well: data object which contains data of the particular well
+        :param res_block: reservoir block in which the well has a perforation
+        :param well_index: well index (productivity index)
+        :return:
+        
+        well_block = 0
+        well.perforations = well.perforations + [(well_block, res_block, well_index, 0.0)]
+        return 0
+"""
     def init_wells(self):
         """
         Class method which initializes the wells (adding wells and their perforations to the reservoir)
@@ -303,12 +335,14 @@ class UnstructReservoir:
             # Perforate all boundary cells:
             for nth_perf in range(len(self.right_boundary_cells)):
                 well_index = self.mesh.volume[self.right_boundary_cells[nth_perf]] / self.max_well_vol * self.well_index
-                self.add_perforation(self.wells[-1], res_block=self.right_boundary_cells[nth_perf],
-                                     well_index=well_index)
+                #self.add_perforation(self.wells[-1], res_block=self.right_boundary_cells[nth_perf],
+                #                     well_index=well_index)
+                self.add_perforation(self.wells[-1], res_block=self.right_boundary_cells[nth_perf])
 
         else:
             # Only perforating the single fracture/matrix block
-            self.add_perforation(self.wells[-1], res_block=self.well_perf_loc[1], well_index=self.well_index)
+            #self.add_perforation(self.wells[-1], res_block=self.well_perf_loc[1], well_index=self.well_index)
+            self.add_perforation(self.wells[-1], res_block=self.well_perf_loc[1])
 
         # Add wells to the DARTS mesh object and sort connection (DARTS related):
         self.mesh.add_wells(ms_well_vector(self.wells))

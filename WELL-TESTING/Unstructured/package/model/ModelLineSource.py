@@ -8,6 +8,7 @@ import os
 import subprocess
 from math import pi
 from ..mesh.EmptyMesh.create_geo_file import create_geo_file, create_geo_file_buffer
+
 class LineSourceModel(DartsModel):
 
     def __init__(self, inputs, simulationParams,meshProperties, outputDir='',bound_cond ='const_pres_rate',  n_points=128):

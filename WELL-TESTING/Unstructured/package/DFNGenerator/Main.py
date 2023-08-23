@@ -5,7 +5,7 @@ from .ConjugateSpace import GenerateConjugateDFNWithSpace
 from .OrthogonalSpace import GenerateOrthogonalDFNWithSpace
 import os
 
-DFN_name = '3Conjugate'
+DFN_name = '03Conjugatetest'
 # Define output directory
 outputDir = 'DFNs/' + str(DFN_name)
 # Create directories if they don't exist
@@ -15,10 +15,10 @@ type='conjucate'
 
 
 # Variables for the Generation of the Fracture Networks
-Ix=[ 0.03125 ]
-Iy=[ 0.03125 ]
-LminX=[24]
-LminY=[24]
+Ix=[ 0.0625, 0.125 ]
+Iy=[ 0.0625, 0.125 ]
+LminX=[6,12]
+LminY=[6,12]
 proximity_threshold=[0.5]
 if type=='orthogonal':
     DFN = GenerateOrthogonalDFNWithSpace(Ix, Iy, LminX, LminY, proximity_threshold=2, outputDir=outputDir, savePic=True)

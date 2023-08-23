@@ -89,6 +89,7 @@ class GenerateConjugateDFNWithSpace:
         yCoord = [minYcoord + (fGcell / 2) + (i * (cGcell + fGcell)) for i in range(numCellsY // 2)]
         xCoord = [minXcoord + (cGcell + fGcell) * i for i in range(numCellsX // 2)]
         lengthX = [(cGcell + fGcell) * i for i in range(1, numCellsX // 2 + 1)]
+        print('lengthX', len(lengthX))
         lengthY = [(cGcell + fGcell) * i for i in range(1, numCellsY// 2 + 1)]
 
         # DoE and related variables
@@ -151,11 +152,12 @@ class GenerateConjugateDFNWithSpace:
                     while p32 <= targetFracIntensity and numIter < maxNumIter and warningCheck < 50000:
                         randInd = np.random.rand()
                         xx = ((1 - randInd) ** (1 / (-2.5 + 1))) * minLength
-                        xxx = round(xx / (cGcell + fGcell))
+                        print('xx=',xx)
+                        xxx = math.floor(xx / (cGcell + fGcell))
                         while xxx > (numCellsX / 2):
                             randInd = np.random.rand()
                             xx = ((1 - randInd) ** (1 / (-2.5 + 1))) * minLength
-                            xxx = round(xx / (cGcell + fGcell))
+                            xxx = math.floor(xx / (cGcell + fGcell))
                             print('xxx',xxx)
                         fracLength.append(lengthX[xxx])
 
